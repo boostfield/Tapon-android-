@@ -1,0 +1,102 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_height_220dp">220dp</dimen>
+    <dimen name="item_height_210dp">210dp</dimen>
+    <dimen name="item_height_200dp">200dp</dimen>
+    <dimen name="item_height_180dp">180dp</dimen>
+    <dimen name="item_height_100dp">100dp</dimen>
+    <dimen name="item_height_84dp">84dp</dimen>
+    <dimen name="item_height_68dp">68dp</dimen>
+    <dimen name="item_height_65dp">65dp</dimen>
+    <dimen name="item_height_big">58dp</dimen>
+    <dimen name="item_height_normal">48dp</dimen>
+    <dimen name="item_height_middle">36dp</dimen>
+    <dimen name="item_height_small">24dp</dimen>
+    <dimen name="item_height_tiny">18dp</dimen>
+    <!-- font sizes -->
+    <dimen name="font_26sp">26sp</dimen>
+    <dimen name="font_24sp">24sp</dimen>
+    <dimen name="font_larger">20sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_tiny">12sp</dimen>
+    <dimen name="font_mini">11sp</dimen>
+    <dimen name="font_10sp">10sp</dimen>
+    <dimen name="font_8sp">8sp</dimen>
+    <dimen name="font_13sp">13sp</dimen>
+    <dimen name="font_15sp">15sp</dimen>
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_110dp">110dp</dimen>
+    <dimen name="spacing_100dp">100dp</dimen>
+    <dimen name="spacing_80dp">80dp</dimen>
+    <dimen name="spacing_70dp">70dp</dimen>
+    <dimen name="spacing_60dp">60dp</dimen>
+    <dimen name="spacing_48dp">48dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_big">24dp</dimen>
+    <dimen name="spacing_normal_x">20dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_middle">14dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_mini">2dp</dimen>
+    <dimen name="spacing_10dp">10dp</dimen>
+    <dimen name="spacing_12dp">12dp</dimen>
+    <dimen name="spacing_13dp">13dp</dimen>
+    <dimen name="spacing_18dp">18dp</dimen>
+    <dimen name="spacing_6dp">6dp</dimen>
+    <dimen name="spacing_3dp">3dp</dimen>
+
+    <!-- typical cornerRadius  -->
+    <dimen name="corner_radius_0dp">0dp</dimen>
+    <dimen name="corner_radius_4dp">4dp</dimen>
+    <dimen name="corner_radius_6dp">6dp</dimen>
+    <!-- typical strokeWidth  -->
+    <dimen name="stroke_width_0dp">0dp</dimen>
+    <dimen name="stroke_width_1dp">1dp</dimen>
+
+    <!-- typical dividerWidth  -->
+    <dimen name="divier_width_0.5dp">0.5dp</dimen>
+    <dimen name="divier_width_1dp">1dp</dimen>
+    <dimen name="divier_width_2dp">2dp</dimen>
+
+    <!--typical bannerheight-->
+    <dimen name="banner_height_250dp">250dp</dimen>
+    <dimen name="banner_height">200dp</dimen>
+    <dimen name="banner_height_normal">180dp</dimen>
+    <dimen name="banner_height_160dp">160dp</dimen>
+    <dimen name="banner_height_140dp">140dp</dimen>
+    <dimen name="banner_height_120dp">120dp</dimen>
+    <dimen name="banner_height_100dp">100dp</dimen>
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <!-- 选项文字大小 需要配合 bools.xml 的 pickerview_customTextSize 为 true 才有效果-->
+    <dimen name="pickerview_textsize">20sp</dimen>
+    <!-- 群详情页面，item高度-->
+    <dimen name="more_item_height">44dip</dimen>
+    <!-- 群详情界面，item间隔-->
+    <dimen name="common_safe_margin">12dip</dimen>
+    <dimen name="common_two_safe_margin">24dip</dimen>
+    <dimen name="setting_item_height">44dip</dimen>
+
+
+    <dimen name="pager_margin_specail">-45dp</dimen>
+    <dimen name="pager_margin_specail_1">-100dp</dimen>
+
+    <integer name="anim_duration_long_x">1000</integer>
+    <integer name="anim_duration_long">500</integer>
+
+</resources>

@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.caoyang.tapon"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        buildTypes {
+            debug {
+                applicationIdSuffix ""
+                buildConfigField 'String', 'APPNAME', '"tapon"'
+                buildConfigField 'String', 'APPVERSION', '"v1.0.0"'
+
+
+            }
+            release {
+                buildConfigField 'String', 'APPNAME', '"tapon"'
+                buildConfigField 'String', 'APPVERSION', '"v1.0.0"'
+
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+
+afterEvaluate {
+    tasks.matching {
+        it.name.startsWith('dex')
+    }.each { dx ->
+        if (dx.additionalParameters == null) {
+            dx.additionalParameters = []
+        }
+        dx.additionalParameters += '--multi-dex' // enable multidex
+
+        // optional
+        // dx.additionalParameters += "--main-dex-list=$projectDir/<filename>".toString() // enable the main-dex-list
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.orhanobut:logger:1.15'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:1.3.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.6@aar'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile 'com.google.zxing:core:3.0.0'
+    compile 'com.android.support:design:24.2.0'
+}
