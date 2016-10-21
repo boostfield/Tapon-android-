@@ -42,7 +42,7 @@ public class AppData extends Application {
     }
 
     private void initLogger() {
-        Logger.init(Constant.APPNAME);
+        Logger.init(Constant.APP_NAME);
     }
 
     //获取APP级别的上下文
